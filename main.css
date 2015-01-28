@@ -10,9 +10,19 @@
 	background-color: black;
 }
 */
-
+.top {
+/*	border-style: solid;
+	border-width: 2px;
+	border-color: black;*/
+	padding: 10px;
+	text-align: center;
+}
 .navbar {
 	background: black; 
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: rgb(210,210,210);
 }
 
 .navbar-brand {
@@ -22,7 +32,7 @@
 
 .navbar-nav>li>a {
 	padding-top:60px;
-	font-size:20px;
+	font-size:16px;
 }
 
 @media (min-width: 75px) {
