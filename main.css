@@ -17,13 +17,13 @@
 	font-size:20px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 75px) {
 	/*phones*/
 	.box {
 			background-color:white;
-			margin-left: 0px;
+			margin: 0 auto; 
 			padding-top:10px;
-
+			display: inline;
 		}
 }
 
@@ -33,7 +33,16 @@
 	.box {
 			background-color:white;
 			padding-top: 10px;
+			width: 200px;
+			padding: 15px;
+			margin: 15px;
+			display: inline-block;
 		}
+
+	.logo {
+		width: 200px;
+	}
+
 }
 
 @media (min-width: 992px) { 
@@ -41,7 +50,15 @@
 */
 	.box {
 			background-color:white;
+			margin-left: 2px;
+			width: 280px;
+			margin-left: 5px;
+			display: inline-block;
 		}
+
+	.logo {
+		width: 280px;
+	}
 }
 
 @media (min-width: 1200px) { 
@@ -49,6 +66,14 @@
 up) */
 		.box {
 			background-color:white;
+			margin-right: 45px;
+			width: 300px;
+			margin-left: 30px;
+			display: inline-block;
+		}
+
+		.logo {
+			width: 300px;
 		}
 
 }
